@@ -1,4 +1,4 @@
-# login_huawei_selenium.py
+# login_to.py
 import os
 import time
 import getpass
