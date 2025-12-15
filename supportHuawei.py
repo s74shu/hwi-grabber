@@ -142,7 +142,7 @@ def readPart(wDriver, bom):
     substs = []
     try:
         elements = wDriver.find_elements(By.CLASS_NAME, "des-box")
-        for sub in elements[:-2]:
+        for sub in elements[:-1]:
             desc = sub.find_elements(By.CLASS_NAME, "ant-descriptions-row")
             for row in desc:
                 elm = row.find_elements(By.TAG_NAME, 'td')
